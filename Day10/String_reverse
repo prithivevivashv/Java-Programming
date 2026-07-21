@@ -13,7 +13,7 @@ public class string_reverse {
             start++;
             end--;
         }
-        String name=new String(b);
+        String name=new String(b);//Convert char array to string
         System.out.println(name);
     }
 }
