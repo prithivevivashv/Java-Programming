@@ -1,0 +1,19 @@
+package DAY10;
+
+public class string_reverse {
+    public static void main(String[] args){
+        String a="hello";
+        char[] b=a.toCharArray();
+        int start=0;
+        int end=a.length()-1;
+        while(start<=end){
+            char temp=b[start];
+            b[start]=b[end];
+            b[end]=temp;
+            start++;
+            end--;
+        }
+        String name=new String(b);
+        System.out.println(name);
+    }
+}
