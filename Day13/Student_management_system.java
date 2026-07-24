@@ -17,7 +17,7 @@ class mentor extends student{
         System.out.println("Mname:"+Mname+" "+"M.Id:"+mid);
     }
 }
-class hod extends mentor{
+class hod extends mentor{ //Multilevel Inheritance
     int hid;
     String Hname;
     void hodDetails(int hid,String Hname){
